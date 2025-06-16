@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>John Nguyen</title>
+
+
+  <!--- custom css link --->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--- google font link --->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--- #MAIN --->
+    <main>
+
+    <!--- #SIDEBAR --->
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/ProfileIcon.png" alt="John Nguyen" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="John Nguyen">John Nguyen</h1>
+
+          <p class="title">Job Title Here</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:johnnguyen4001@gmail.com" class="contact-link">johnnguyen4001@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Atlanta, Georgia</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <!--- #ABOUT --->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+          About Me
+          </p>
+
+          <p>
+          About Me
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I'm Doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/socialmediaIcon.png" alt="Icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Social Media Marketing</h4>
+
+                <p class="service-item-text">
+                  Social Media Marketing.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/AiTrainingIcon.png" alt="Icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AI Training</h4>
+
+                <p class="service-item-text">
+                  AI Training.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/ExternIcon.png" alt="Icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Extern</h4>
+
+                <p class="service-item-text">
+                  Externship.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/OthersIcon.png" alt="Icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Others</h4>
+
+                <p class="service-item-text">
+                  Others.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>      </section>
+      </article>
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Clayton State University</h4>
+
+              <span>Fall 2024</span>
+
+              <p class="timeline-text">
+                Bachelor of Science in Computer Science
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">CodePath</h4>
+
+              <span>2024</span>
+
+              <p class="timeline-text">
+                Intro to Cybersecurity 
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Empty</h4>
+
+              <span>Empty</span>
+
+              <p class="timeline-text">
+                Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur
+                magni dolores
+                eos.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">AI Training Analyst</h4>
+               <p class="timeline-company">Outlier - Contract</p>
+
+              <span>Jan 2025 — Present</span>
+
+              <p class="timeline-text">
+                Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas
+                molestias
+                exceptur.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Data Annotator</h4>
+                <p class="timeline-company">Stellar AI - Contract</p>
+
+              <span>Jan 2025 — Present</span>
+
+              <p class="timeline-text">
+                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
+                quas molestias
+                exceptur.
+              </p>
+
+            </li>
+           <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Social Media & Influencer Strategy Extern | LEAP</h4>
+                <p class="timeline-company">Extern</p>
+              <span>Apr 2025 - Present</span>
+
+              <p class="timeline-text">
+                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
+                quas molestias
+                exceptur.
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Social Media Marketing</h4>
+                <p class="timeline-company">Freelance</p>
+              <span>Jul 2024 - Present</span>
+
+              <p class="timeline-text">
+                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
+                quas molestias
+                exceptur.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Research Extern | Mobalytics</h4>
+                <p class="timeline-company">Extern</p>
+              <span>May 2024 - June 2024</span>
+
+              <p class="timeline-text">
+                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
+                quas molestias
+                exceptur.
+              </p>
+            
+            </li>
+          </ol>
+
+        </section>
+
+<section class="skill">
+
+  <h3 class="h3 skills-title">Technical Skills</h3>
+
+  <ul class="skills-list content-card">
+
+    <li class="skills-item">
+      <div class="title-wrapper">
+        <h5 class="h5">Languages</h5>
+      </div>
+      <div class="skills-buttons">
+        <button class="skill-btn">Java</button>
+        <button class="skill-btn">Python</button>
+        <button class="skill-btn">C#</button>
+        <button class="skill-btn">SQL</button>
+      </div>
+    </li>
+
+    <li class="skills-item">
+      <div class="title-wrapper">
+        <h5 class="h5">Cloud Services</h5>
+      </div>
+      <div class="skills-buttons">
+        <button class="skill-btn">Digital Ocean</button>
+        <button class="skill-btn">Heroku</button>
+        <button class="skill-btn">Microsoft Azure</button>
+        <button class="skill-btn">Oracle Cloud</button>
+      </div>
+    </li>
+
+    <li class="skills-item">
+      <div class="title-wrapper">
+        <h5 class="h5">Others</h5>
+      </div>
+      <div class="skills-buttons">
+        <button class="skill-btn">Google BigQuery</button>
+        <button class="skill-btn">Jupyter Notebook</button>
+        <button class="skill-btn">Visual Paradigm</button>
+        <button class="skill-btn">MongoDB</button>
+        <button class="skill-btn">Neo4j</button>
+        <button class="skill-btn">SQL Server Management Studio</button>
+        <button class="skill-btn">Oracle SQL Developer</button>
+      </div>
+    </li>
+
+  </ul>
+
+</section>
+
+      </article>
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Empty1</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Empty2</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Empty3</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select Category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Empty1</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Empty2</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Empty3</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Project1.png" alt="" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Project1</h3>
+
+                <p class="project-category">Empty1</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Empty1">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Project2.png" alt="" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Project2</h3>
+
+                <p class="project-category">Empty1</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Empty2">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Project3.png" alt="" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Project3</h3>
+
+                <p class="project-category">Empty2</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Empty3">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Project4.png" alt="" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Project4</h3>
+
+                <p class="project-category">Empty3</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+    </div>
+
+  </main>
+
+
+
+  <!--
+    - custom js link
+  -->  <script src="./assets/js/script.js" defer></script>
+  
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
