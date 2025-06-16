@@ -2,26 +2,15 @@
   #style.css
 \*-----------------------------------*/
 
-
-/**
- * copyright 2022 @codewithsadee
- */
-
-
-
-
-
 /*-----------------------------------*\
   #CUSTOM PROPERTY
 \*-----------------------------------*/
 
 :root {
 
-  /**
-   * colors
-   */
+  /*** colors ***/
 
-  /* gradient */
+  /*** gradient ***/
 
   --bg-gradient-onyx: linear-gradient(
     to bottom right, 
@@ -69,9 +58,7 @@
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
 
-  /**
-   * typography
-   */
+  /*** typography ***/
 
   /* font-family */
   --ff-poppins: 'Poppins', sans-serif;
@@ -92,9 +79,7 @@
   --fw-500: 500;
   --fw-600: 600;
 
-  /**
-   * shadow
-   */
+  /*** shadow ***/
   
   --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.25);
   --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.25);
@@ -102,18 +87,12 @@
   --shadow-4: 0 25px 50px hsla(0, 0%, 0%, 0.15);
   --shadow-5: 0 24px 80px hsla(0, 0%, 0%, 0.25);
 
-  /**
-   * transition
-   */
+  /*** transition ***/
 
   --transition-1: 0.25s ease;
   --transition-2: 0.5s ease-in-out;
 
 }
-
-
-
-
 
 /*-----------------------------------*\
   #RESET
@@ -293,9 +272,6 @@ article.active {
 }
 
 
-
-
-
 /*-----------------------------------*\
   #MAIN
 \*-----------------------------------*/
@@ -305,10 +281,6 @@ main {
   margin-bottom: 75px;
   min-width: 259px;
 }
-
-
-
-
 
 /*-----------------------------------*\
   #SIDEBAR
@@ -446,10 +418,6 @@ main {
 
 .social-item .social-link:hover { color: var(--light-gray); }
 
-
-
-
-
 /*-----------------------------------*\
   #NAVBAR
 \*-----------------------------------*/
@@ -487,10 +455,6 @@ main {
 
 .navbar-link.active { color: var(--orange-yellow-crayola); }
 
-
-
-
-
 /*-----------------------------------*\
   #ABOUT
 \*-----------------------------------*/
@@ -507,10 +471,7 @@ main {
 .about-text p { margin-bottom: 15px; }
 
 
-
-/**
- * #service 
- */
+/*** What I'm Doing ***/
 
 .service { margin-bottom: 35px; }
 
@@ -564,9 +525,7 @@ main {
 .article-title { margin-bottom: 30px; }
 
 
-/**
- * education and experience 
- */
+/*** education and experience ***/
 
 .timeline { margin-bottom: 30px; }
 
@@ -635,42 +594,8 @@ main {
 }
 
 
-/**
- * skills 
- */
+/*** skills ***/
 
-.skills-title { margin-bottom: 20px; }
-
-.skills-list { padding: 20px; }
-
-
-.skills-item:not(:last-child) { margin-bottom: 15px; }
-
-.skill .title-wrapper {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  margin-bottom: 8px;
-}
-
-.skill .title-wrapper data {
-  color: var(--light-gray);
-  font-size: var(--fs-7);
-  font-weight: var(--fw-300);
-}
-
-.skill-progress-bg {
-  background: var(--jet);
-  width: 100%;
-  height: 8px;
-  border-radius: 10px;
-}
-
-.skill-progress-fill {
-  background: var(--text-gradient-yellow);
-  height: 100%;
-  border-radius: inherit;
-}
 
 .skills-buttons {
   display: flex;
@@ -693,10 +618,6 @@ main {
 .skill-btn:hover {
   background-color: #777;
 }
-
-
-
-
 
 /*-----------------------------------*\
   #PORTFOLIO
@@ -865,14 +786,6 @@ main {
 @media (min-width: 450px) {
 
   /**
-   * client
-   */
-
-  .clients-item { min-width: calc(33.33% - 10px); }
-
-
-
-  /**
    * #PORTFOLIO 
    */
 
@@ -1011,7 +924,6 @@ main {
 
   .separator { margin: 32px 0; }
 
-  .contacts-list { gap: 20px; }
 
   .contact-info {
     max-width: calc(100% - 64px);
@@ -1057,83 +969,6 @@ main {
 
   .service-content-box { text-align: left; }
 
-  /* testimonials */
-
-  .testimonials-title { margin-bottom: 25px; }
-
-  .testimonials-list {
-    gap: 30px;
-    margin: 0 -30px;
-    padding: 30px;
-    padding-bottom: 35px;
-  }
-
-  .content-card {
-    padding: 30px;
-    padding-top: 25px;
-  }
-
-  .testimonials-avatar-box {
-    transform: translate(30px, -30px);
-    border-radius: 20px;
-  }
-
-  .testimonials-avatar-box img { width: 80px; }
-
-  .testimonials-item-title {
-    margin-bottom: 10px;
-    margin-left: 95px;
-  }
-
-  .testimonials-text {
-    line-clamp: 2;
-    -webkit-line-clamp: 2;
-  }
-
-  /* testimonials modal */
-
-  .modal-container { padding: 20px; }
-
-  .testimonials-modal {
-    display: flex;
-    justify-content: flex-start;
-    align-items: stretch;
-    gap: 25px;
-    padding: 30px;
-    border-radius: 20px;
-  }
-
-  .modal-img-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .modal-avatar-box {
-    border-radius: 18px;
-    margin-bottom: 0;
-  }
-
-  .modal-avatar-box img { width: 65px; }
-
-  .modal-img-wrapper > img {
-    display: block;
-    flex-grow: 1;
-    width: 35px;
-  }
-
-  /* clients */
-
-  .clients-list {
-    gap: 50px;
-    margin: 0 -30px;
-    padding: 45px;
-    scroll-padding-inline: 45px;
-  }
-
-  .clients-item { min-width: calc(33.33% - 35px); }
-
-
 
   /**
    * #RESUME
@@ -1159,33 +994,6 @@ main {
 
   .project-img{ border-radius: 16px; }
 
-
-
-
-  /**
-   * #CONTACT
-   */
-
-  .mapbox {
-    height: 380px;
-    border-radius: 18px;
-  }
-
-  .input-wrapper {
-    gap: 30px;
-    margin-bottom: 30px;
-  }
-
-  .form-input { padding: 15px 20px; }
-
-  textarea.form-input { margin-bottom: 30px; }
-
-  .form-btn {
-    --fs-6: 16px;
-    padding: 16px 20px;
-  }
-
-  .form-btn ion-icon { font-size: 18px; }
 
 }
 
@@ -1232,17 +1040,6 @@ main {
    * ABOUT
    */
 
-  /* testimonials modal */
-
-  .testimonials-modal {
-    gap: 35px;
-    max-width: 680px;
-  }
-
-  .modal-avatar-box img { width: 80px; }
-
-
-
   /**
    * PORTFOLIO
    */
@@ -1273,20 +1070,6 @@ main {
   /* portfolio grid */
 
   .project-list { grid-template-columns: 1fr 1fr; }
-
-
-
-  /**
-   * CONTACT
-   */
-
-  .input-wrapper { grid-template-columns: 1fr 1fr; }
-
-  .form-btn {
-    width: max-content;
-    margin-left: auto;
-  }
-  
 }
 
 
@@ -1378,16 +1161,6 @@ main {
     gap: 20px 25px;
   }
 
-  /* testimonials */
-
-  .testimonials-item { min-width: calc(50% - 15px); }
-
-  /* clients */
-
-  .clients-item { min-width: calc(25% - 38px); }
-
-
-
   /**
    * PORTFOLIO
    */
@@ -1395,9 +1168,6 @@ main {
   .project-list { grid-template-columns: repeat(3, 1fr); }
 
 }
-
-
-
 
 
 /**
@@ -1456,7 +1226,6 @@ main {
     width: 75%;
     margin: 0;
   }
-
 
 
   /**
